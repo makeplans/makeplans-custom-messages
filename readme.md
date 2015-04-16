@@ -16,9 +16,11 @@ Hi {{ booking.person.name }}, you have booked {{ booking.resource.title }} on {{
 
 Example: `{{ booking.booked_from }}`
 
+* id
 * booked_from
 * booked_to
 * verificaion_code
+* count
 * notes
 * custom_data
 
