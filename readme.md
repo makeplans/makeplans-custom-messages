@@ -20,18 +20,23 @@ Example: `{{ booking.booked_from }}`
 * booked_to
 * verificaion_code
 * notes
+* custom_data
 
 #### Event
 
 Example: `{{ booking.resource.title }}`
 
 * title
+* payment_required
+* price
+* custom_data
 
 #### Resource
 
 Example: `{{ booking.resource.title }}`
 
 * title
+* custom_data
 
 #### Person
 
@@ -47,10 +52,13 @@ Example: `{{ booking.person.name }}`
 * city
 * state
 * country_code
+* custom_data
 
 #### Service
 
 Example: `{{ booking.service.title }}`
 
 * title
+* payment_required
 * price
+* custom_data
