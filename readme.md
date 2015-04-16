@@ -7,14 +7,14 @@ Emails and SMS sent from MakePlans can be customised and also include relevant d
 ## Complete example
 
 ```
-Hi {% booking.person.name %}, you have booked {% booking.resource.title %} on {% booking.booked_from %}.
+Hi {{ booking.person.name }}, you have booked {{ booking.resource.title }} on {{ booking.booked_from }}.
 ```
 
 ## Available objects
 
 ### Booking
 
-Example: `{% booking.booked_from %}`
+Example: `{{ booking.booked_from }}`
 
 * booked_from
 * booked_to
@@ -23,19 +23,19 @@ Example: `{% booking.booked_from %}`
 
 #### Event
 
-Example: `{% booking.resource.title %}`
+Example: `{{ booking.resource.title }}`
 
 * title
 
 #### Resource
 
-Example: `{% booking.resource.title %}`
+Example: `{{ booking.resource.title }}`
 
 * title
 
 #### Person
 
-Example: `{% booking.person.name %}`
+Example: `{{ booking.person.name }}`
 
 * name
 * email
@@ -50,7 +50,7 @@ Example: `{% booking.person.name %}`
 
 #### Service
 
-Example: `{% booking.service.title %}`
+Example: `{{ booking.service.title }}`
 
 * title
 * price
