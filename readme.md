@@ -19,7 +19,8 @@ Example: `{{ booking.booked_from }}`
 * id
 * booked_from
 * booked_to
-* verificaion_code
+* verificaion_code (for SMS verification)
+* verification_link (for email verification)
 * count
 * notes
 * custom_data
