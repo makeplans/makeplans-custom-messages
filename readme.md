@@ -27,7 +27,7 @@ Example: `{{ booking.booked_from }}`
 
 #### Event
 
-Example: `{{ booking.resource.title }}`
+Example: `{{ booking.event.title }}`
 
 * title
 * payment_required
