@@ -17,13 +17,16 @@ Hi {{ booking.person.name }}, you have booked {{ booking.resource.title }} on {{
 Example: `{{ booking.booked_from }}`
 
 * id
-* booked_from
-* booked_to
+* booked_from (localized)
+* booked_to (localized)
+* booked_from_iso8601
+* booked_to_iso8601
 * verificaion_code (for SMS verification)
 * verification_link (for email verification)
 * count
 * notes
 * custom_data
+* link (for information about the booking)
 
 #### Event
 
