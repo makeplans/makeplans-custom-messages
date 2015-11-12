@@ -59,6 +59,7 @@ Example: `{{ booking.person.name }}`
 * city
 * state
 * country_code
+* country
 * custom_data
 
 #### Service
