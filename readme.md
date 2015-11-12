@@ -28,22 +28,6 @@ Example: `{{ booking.booked_from }}`
 * custom_data
 * link (for information about the booking)
 
-#### Event
-
-Example: `{{ booking.event.title }}`
-
-* title
-* payment_required
-* price
-* custom_data
-
-#### Resource
-
-Example: `{{ booking.resource.title }}`
-
-* title
-* custom_data
-
 #### Person
 
 Example: `{{ booking.person.name }}`
@@ -69,4 +53,20 @@ Example: `{{ booking.service.title }}`
 * title
 * payment_required
 * price
+* custom_data
+
+#### Event
+
+Example: `{{ booking.event.title }}`
+
+* title
+* payment_required
+* price
+* custom_data
+
+#### Resource
+
+Example: `{{ booking.resource.title }}`
+
+* title
 * custom_data
