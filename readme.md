@@ -50,7 +50,8 @@ Example: `{{ booking.person.name }}`
 
 * name
 * email
-* phonenumber
+* phone_number (can also use the depreated phonenumber)
+* phone_number_formatted (E.164 formatted phone number with plus sign, international code, and no spaces or parentheses)
 * date_of_birth
 * national_id_no
 * street
