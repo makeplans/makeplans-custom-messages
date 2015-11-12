@@ -12,6 +12,12 @@ Hi {{ booking.person.name }}, you have booked {{ booking.resource.title }} on {{
 
 ## Available objects
 
+* [Booking](#booking)
+* [Person](#person)
+* [Service](#service)
+* [Event](#event)
+* [Resource](#resoure)
+
 ### Booking
 
 Example: `{{ booking.booked_from }}`
