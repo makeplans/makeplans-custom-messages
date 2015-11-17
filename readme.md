@@ -34,6 +34,8 @@ Example: `{{ booking.booked_from }}`
 * custom_data
 * link (for information about the booking)
 
+For custom date/time format using the `_iso8601` fields see [usage of Liquid filters](https://docs.shopify.com/themes/liquid-documentation/filters/additional-filters#date).
+
 #### Person
 
 Example: `{{ booking.person.name }}`
