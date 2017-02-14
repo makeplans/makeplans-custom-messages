@@ -40,6 +40,7 @@ For custom date/time format using the `_iso8601` fields see [usage of Liquid fil
 
 Example: `{{ booking.person.name }}`
 
+* id
 * name
 * email
 * phone_number (can also use the depreated phonenumber)
@@ -58,6 +59,7 @@ Example: `{{ booking.person.name }}`
 
 Example: `{{ booking.service.title }}`
 
+* id
 * title
 * payment_required
 * price
@@ -67,6 +69,7 @@ Example: `{{ booking.service.title }}`
 
 Example: `{{ booking.event.title }}`
 
+* id
 * title
 * payment_required
 * price
@@ -76,5 +79,6 @@ Example: `{{ booking.event.title }}`
 
 Example: `{{ booking.resource.title }}`
 
+* id
 * title
 * custom_data
