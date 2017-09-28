@@ -27,7 +27,7 @@ Example: `{{ booking.booked_from }}`
 * booked_to (localized)
 * booked_from_iso8601
 * booked_to_iso8601
-* verificaion_code (for SMS verification)
+* verification_code (for SMS verification)
 * verification_link (for email verification)
 * count
 * notes
