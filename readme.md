@@ -2,7 +2,7 @@
 
 ## Get started
 
-Emails and SMS sent from MakePlans can be customised and also include relevant data. The messages are built with [Liquid](http://liquidmarkup.org). Please read the [Liquid documenation](https://github.com/Shopify/liquid/wiki) for more information. You can use HTML and all standard Liquid syntax.
+Emails and SMS sent from MakePlans can be customised and also include relevant data. The messages are built with [Liquid](http://liquidmarkup.org). Please read the [Liquid documentation](https://github.com/Shopify/liquid/wiki) for more information. You can use HTML and all standard Liquid syntax.
 
 ## Complete example
 
@@ -43,7 +43,7 @@ Example: `{{ booking.person.name }}`
 * id
 * name
 * email
-* phone_number (can also use the depreated phonenumber)
+* phone_number (can also use the deprecated phonenumber)
 * phone_number_formatted (E.164 formatted phone number with plus sign, international code, and no spaces or parentheses)
 * date_of_birth
 * national_id_no
