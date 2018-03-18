@@ -34,13 +34,13 @@ Example: `{{ booking.booked_from }}`
 * custom_data
 * link (for information about the booking)
 
-For custom date/time formatting using the `_iso8601` fields see [usage of Liquid filters](https://docs.shopify.com/themes/liquid-documentation/filters/additional-filters#date) and [strfti.me](http://www.strfti.me) for date/time reference.
+For custom date/time formatting using the `_iso8601` fields see [usage of Liquid filters](https://docs.shopify.com/themes/liquid-documentation/filters/additional-filters#date) and [strfti.me](http://www.strfti.me) for date/time reference. In addition to the standard Liquid filters we have included `i18n_date` filter which works like the standard `date` filter but will output based on your account locale and time zone. The standard `date` filter will only output English.
 
 Date filter examples:
 
-`{{ booking.booked_from_iso8601 | date: '%A, %B %e, %Y' }}` will result in `Thursday, January 4, 2018`.
+`{{ booking.booked_from_iso8601 | i18n_date: '%A, %B %e, %Y' }}` will result in `Thursday, January 4, 2018`.
 
-`{{ booking.booked_from_iso8601 | date: '%H:%M' }}` will result in `13:25`.
+`{{ booking.booked_from_iso8601 | i18n_date: '%H:%M' }}` will result in `13:25`.
 
 #### Person
 
