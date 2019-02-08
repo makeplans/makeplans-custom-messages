@@ -17,6 +17,7 @@ Hi {{ booking.person.name }}, you have booked {{ booking.resource.title }} on {{
 * [Service](#service)
 * [Event](#event)
 * [Resource](#resoure)
+* [Client](#client)
 
 ### Booking
 
@@ -88,3 +89,9 @@ Example: `{{ booking.resource.title }}`
 * id
 * title
 * custom_data
+#### Client
+
+Example: `{{ booking.client.name }}`
+
+* name
+* subdomain
