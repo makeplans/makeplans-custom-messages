@@ -37,7 +37,7 @@ Example: `{{ booking.booked_from }}`
 * custom_data
 * link (for information about the booking)
 * price
-* confrere_link (Confrere integration must be activated)
+* confrere_url (Confrere integration must be activated)
 
 For custom date/time formatting using the `_iso8601` fields see [usage of Liquid filters](https://docs.shopify.com/themes/liquid-documentation/filters/additional-filters#date) and [strfti.me](http://www.strfti.me) for date/time reference. In addition to the standard Liquid filters we have included `i18n_date` filter which works like the standard `date` filter but will output based on your account locale and time zone. The standard `date` filter will only output English.
 
