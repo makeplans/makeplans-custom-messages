@@ -101,3 +101,8 @@ Example: `{{ booking.client.name }}`
 
 * name
 * subdomain
+* domain
+* address
+* email
+* phone_number
+* currency
