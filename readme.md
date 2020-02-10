@@ -38,6 +38,10 @@ Example: `{{ booking.booked_from }}`
 * link (for information about the booking)
 * price
 * confrere_url (Confrere integration must be activated)
+* title
+* link
+* price
+* booking_capacity
 
 For custom date/time formatting using the `_iso8601` fields see [usage of Liquid filters](https://docs.shopify.com/themes/liquid-documentation/filters/additional-filters#date) and [strfti.me](http://www.strfti.me) for date/time reference. In addition to the standard Liquid filters we have included `i18n_date` filter which works like the standard `date` filter but will output based on your account locale and time zone. The standard `date` filter will only output English.
 
@@ -81,8 +85,8 @@ Example: `{{ booking.service.title }}`
 Example: `{{ booking.event.title }}`
 
 * id
-* title
-* full_title (including service title)
+* title (full title including event type title)
+* event_title (title for the specific event without event type title)
 * payment_required
 * price
 * custom_data
@@ -103,6 +107,9 @@ Example: `{{ booking.client.name }}`
 * subdomain
 * domain
 * address
+* country
+* country_code
 * email
 * phone_number
 * currency
+* verification_method
