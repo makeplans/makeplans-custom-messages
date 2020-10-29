@@ -38,6 +38,7 @@ Example: `{{ booking.booked_from }}`
 * link (for information about the booking)
 * price
 * confrere_url (Confrere integration must be activated)
+* zoom_url (Zoom integration must be activated)
 * title
 * link
 * price
@@ -76,6 +77,7 @@ Example: `{{ booking.service.title }}`
 
 * id
 * title
+* description
 * payment_required
 * price
 * custom_data
@@ -87,6 +89,8 @@ Example: `{{ booking.event.title }}`
 * id
 * title (full title including event type title)
 * event_title (title for the specific event without event type title)
+* description (event type or specific event description)
+* event_description (description for the specific event without event type description)
 * payment_required
 * price
 * custom_data
