@@ -40,6 +40,7 @@ Example: `{{ booking.booked_from }}`
 * confrere_url (Confrere integration must be activated)
 * zoom_url (Zoom integration must be activated)
 * title
+* description
 * link
 * price
 * booking_capacity
