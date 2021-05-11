@@ -41,7 +41,6 @@ Example: `{{ booking.booked_from }}`
 * zoom_url (Zoom integration must be activated)
 * title
 * description
-* link
 * price
 * booking_capacity
 
