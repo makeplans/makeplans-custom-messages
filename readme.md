@@ -118,3 +118,15 @@ Example: `{{ booking.client.name }}`
 * phone_number
 * currency
 * verification_method
+
+## Advanced usage
+
+### Localisation (i18n)
+
+You can use `locale` to render output based on language. For example:
+
+{% if locale == 'nb' %}
+Viking
+{% else %}
+Not viking
+{% endif %}}
