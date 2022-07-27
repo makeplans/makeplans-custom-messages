@@ -129,4 +129,4 @@ You can use `locale` to render output based on language. For example:
 Viking
 {% else %}
 Not viking
-{% endif %}}
+{% endif %}
