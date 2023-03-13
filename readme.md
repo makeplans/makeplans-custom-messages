@@ -29,7 +29,7 @@ This is the booking site for {{ client.name }}. Enjoy!
 
 ## Other user cases
 
-* [Calendar](#calendar)
+* [Calendar](#calendar-event)
 * [Locale](#locale)
 
 ### Booking
