@@ -31,6 +31,7 @@ This is the booking site for {{ client.name }}. Enjoy!
 
 * [Calendar](#calendar-event)
 * [Locale](#locale)
+* [Advanced usage](#advanced-usage)
 
 ### Booking
 
