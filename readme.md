@@ -153,7 +153,7 @@ For custom date/time formatting using the `_iso8601` fields see [usage of Liquid
 
 Date filter examples:
 
-`{{ booking.booked_from_iso8601 | i18n_date: '%A, %B %e, %Y' }}` will result in `Thursday, January 4, 2018`.
+`{{ booking.booked_from_iso8601 | i18n_date: '%A, %B %-d, %Y' }}` will result in `Thursday, January 4, 2018`.
 
 `{{ booking.booked_from_iso8601 | i18n_date: '%H:%M' }}` will result in `13:25`.
 
