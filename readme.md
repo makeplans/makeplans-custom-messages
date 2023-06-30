@@ -1,4 +1,4 @@
-# MakePlans Custom Messages
+# MakePlans Custom Messages and Content
 
 ## Get started
 
@@ -167,4 +167,14 @@ Viking
 {% else %}
 Not viking
 {% endif %}
+```
+
+### JavaScript
+
+You can include custom JavaScript however due to our CSP we require a nonce to be included. Thus you need to use our tag `script` tag to be able to execute your custom JavaScript in the browser:
+
+```
+{% script %}
+alert('MakePlans is awesome');
+{% endscript %}
 ```
