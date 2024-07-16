@@ -55,6 +55,7 @@ Example: `{{ booking.booked_from }}`
 * description
 * price
 * booking_capacity
+* video_url (Integrated MakePlans video. Currently only supported by Whereby.)
 * confrere_url (Confrere integration must be activated)
 * zoom_url (Zoom integration must be activated)
 * whereby_url (Whereby integration must be activated)
