@@ -59,6 +59,7 @@ Example: `{{ booking.booked_from }}`
 * confrere_url (Confrere integration must be activated)
 * zoom_url (Zoom integration must be activated)
 * whereby_url (Whereby integration must be activated)
+* terms (Custom service terms or the default client terms)
 
 #### Person
 
@@ -125,6 +126,7 @@ Example: `{{ booking.client.name }}`
 * phone_number
 * currency
 * verification_method
+* terms (Will always output the default client terms)
 
 ### Calendar event
 
@@ -147,6 +149,10 @@ This is just an attribute, not an object. See [localisation](#localisation) for 
 * locale
 
 ## Advanced usage
+
+### Terms
+
+The default terms are available on the client object. To display custom service terms use the terms on the booking object.
 
 ### Date formatting
 
