@@ -156,7 +156,7 @@ The default terms are available on the client object. To display custom service 
 
 ### Date formatting
 
-For custom date/time formatting using the `_iso8601` fields see [usage of Liquid filters](https://docs.shopify.com/themes/liquid-documentation/filters/additional-filters#date) and [strfti.me](http://www.strfti.me) for date/time reference. In addition to the standard Liquid filters we have included `i18n_date` filter which works like the standard `date` filter but will output based on your account locale and time zone. The standard `date` filter will only output English.
+For custom date/time formatting using the `_iso8601` fields see [usage of Liquid date filter](https://shopify.github.io/liquid/filters/date/) and [strfti.me](http://www.strfti.me) for date/time reference. In addition to the standard Liquid filters we have included `i18n_date` filter which works like the standard `date` filter but will output based on your account locale and time zone. The standard `date` filter will only output English.
 
 Date filter examples:
 
